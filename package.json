@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "prepare": "nitropack prepare",
+    "dev": "nitropack dev",
+    "build": "nitropack build",
+    "preview": "node .output/server/index.mjs",
+    "db:pull": "npx drizzle-kit introspect:pg --port 3001",
+    "db:studio": "npx drizzle-kit studio --port 3001"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "drizzle-orm": "^0.28.2",
+    "nitropack": "latest",
+    "pg": "^8.11.3",
+    "postgres": "^3.3.5"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.10.2",
+    "drizzle-kit": "^0.19.12"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "extends": "./.nitro/types/tsconfig.json",
+  "compilerOptions": {
+    // needed for postgres driver
+    "allowSyntheticDefaultImports": true
+  }
+}
