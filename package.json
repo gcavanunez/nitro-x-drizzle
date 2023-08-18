@@ -5,7 +5,7 @@
     "dev": "nitropack dev",
     "build": "nitropack build",
     "preview": "node .output/server/index.mjs",
-    "db:pull": "npx drizzle-kit introspect:pg --port 3001",
+    "db:pull": "npx drizzle-kit introspect:pg",
     "db:studio": "npx drizzle-kit studio --port 3001"
   },
   "dependencies": {
