@@ -1,6 +1,6 @@
 # Nitro x Drizzle
 
-This lil demo is meant to be paired with postgres, to swap out the db checkout (the drizzle docs)[https://orm.drizzle.team/docs/installation-and-db-connection]
+This lil demo is meant to be paired with postgres, to swap out the db checkout [the drizzle docs](https://orm.drizzle.team/docs/installation-and-db-connection)
 
 ### Steps
 
